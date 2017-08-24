@@ -1,0 +1,357 @@
+[{
+        "code": "200",
+        "description": "thunderstorm with light rain",
+
+    },
+    {
+        "code": "201",
+        "description": "thunderstorm with rain",
+
+    },
+    {
+        "code": "202",
+        "description": "thunderstorm with heavy rain",
+
+    },
+    {
+        "code": "210",
+        "description": "light thunderstorm",
+
+    },
+    {
+        "code": "211",
+        "description": "thunderstorm",
+
+    },
+    {
+        "code": "212",
+        "description": "heavy thunderstorm",
+
+    },
+    {
+        "code": "221",
+        "description": "ragged thunderstorm",
+
+    },
+    {
+        "code": "230",
+        "description": "thunderstorm with light drizzle",
+
+    },
+    {
+        "code": "231",
+        "description": "thunderstorm with drizzle",
+
+    },
+    {
+        "code": "232",
+        "description": "thunderstorm with heavy drizzle",
+
+    },
+
+    {
+        "code": "300",
+        "description": "light intensity drizzle",
+
+    },
+    {
+        "code": "301",
+        "description": "drizzle",
+
+    },
+    {
+        "code": "302",
+        "description": "heavy intensity drizzle",
+
+    },
+    {
+        "code": "310",
+        "description": "light intensity drizzle rain",
+
+    },
+    {
+        "code": "311",
+        "description": "drizzle rain",
+
+    },
+    {
+        "code": "312",
+        "description": "heavy intensity drizzle rain",
+
+    },
+    {
+        "code": "313",
+        "description": "shower rain and drizzle",
+
+    },
+    {
+        "code": "314",
+        "description": "heavy shower rain and drizzle",
+
+    },
+    {
+        "code": "321",
+        "description": "shower drizzle",
+
+    },
+
+    {
+        "code": "500",
+        "description": "light rain",
+
+    },
+    {
+        "code": "501",
+        "description": "moderate rain",
+
+    },
+    {
+        "code": "502",
+        "description": "heavy intensity rain ",
+
+    },
+    {
+        "code": "503",
+        "description": "very heavy rain",
+
+    },
+    {
+        "code": "504",
+        "description": "extreme rain",
+
+    },
+    {
+        "code": "511",
+        "description": "freezing rain",
+
+    },
+    {
+        "code": "520",
+        "description": "light intensity shower rain ",
+
+    },
+    {
+        "code": "521",
+        "description": "shower rain",
+
+    },
+    {
+        "code": "522",
+        "description": "heavy intensity shower rain",
+
+    },
+    {
+        "code": "531",
+        "description": "ragged shower rain",
+
+    },
+
+    {
+        "code": "600",
+        "description": "light snow",
+
+    },
+    {
+        "code": "601",
+        "description": "snow",
+
+    },
+    {
+        "code": "602",
+        "description": "heavy snow",
+
+    },
+    {
+        "code": "611",
+        "description": "sleet",
+
+    },
+    {
+        "code": "612",
+        "description": "shower sleet",
+
+    },
+    {
+        "code": "615",
+        "description": "light rain and snow",
+
+    },
+    {
+        "code": "616",
+        "description": "rain and snow",
+
+    },
+    {
+        "code": "620",
+        "description": "light shower snow",
+
+    },
+    {
+        "code": "621",
+        "description": "shower snow",
+
+    },
+    {
+        "code": "622",
+        "description": "heavy shower snow",
+
+    },
+
+    {
+        "code": "701",
+        "description": "mist",
+
+    },
+    {
+        "code": "711",
+        "description": "smoke",
+
+    },
+    {
+        "code": "721",
+        "description": "haze",
+
+    },
+    {
+        "code": "731",
+        "description": "sand",
+
+
+    },
+    {
+        "code": "741",
+        "description": "fog",
+
+    },
+    {
+        "code": "751",
+        "description": "sand",
+
+    },
+    {
+        "code": "761",
+        "description": "dust",
+
+    },
+    {
+        "code": "762",
+        "description": "volcanic ash",
+
+    },
+    {
+        "code": "771",
+        "description": "squalls",
+
+    },
+    {
+        "code": "781",
+        "description": "tornado",
+
+    },
+
+    {
+        "code": "800",
+        "description": "clear sky",
+
+    },
+
+    {
+        "code": "801",
+        "description": "few clouds ",
+
+    },
+    {
+        "code": "802",
+        "description": "scattered clouds ",
+
+    },
+    {
+        "code": "803",
+        "description": "broken clouds ",
+
+    },
+    {
+        "code": "804",
+        "description": "overcast clouds ",
+
+    },
+
+    {
+        "code": "900",
+        "description": "tornado"
+    },
+    {
+        "code": "901",
+        "description": "tropical storm"
+    },
+    {
+        "code": "902",
+        "description": "hurricane"
+    },
+    {
+        "code": "903",
+        "description": "cold"
+    },
+    {
+        "code": "904",
+        "description": "hot"
+    },
+    {
+        "code": "905",
+        "description": "windy"
+    },
+    {
+        "code": "906",
+        "description": "hail"
+    },
+
+    {
+        "code": "951",
+        "description": "calm"
+    },
+    {
+        "code": "952",
+        "description": "light breeze"
+    },
+    {
+        "code": "953",
+        "description": "gentle breeze"
+    },
+    {
+        "code": "954",
+        "description": "moderate breeze"
+    },
+    {
+        "code": "955",
+        "description": "fresh breeze"
+    },
+    {
+        "code": "956",
+        "description": "strong breeze"
+    },
+    {
+        "code": "957",
+        "description": "high wind",
+
+    },
+    {
+        "code": "958",
+        "description": "gale"
+    },
+    {
+        "code": "959",
+        "description": "severe gale"
+    },
+    {
+        "code": "960",
+        "description": "storm"
+    },
+    {
+        "code": "961",
+        "description": "violent storm"
+    },
+    {
+        "code": "962",
+        "description": "hurricane"
+    }
+]
