@@ -48,3 +48,10 @@ span {
 #geoOut #clothes .hat {
   max-width: 180px;
 }
+#footer {
+  margin-top: 10vh;
+  bottom: 0;
+}
+#footer a {
+  color: #FFFFFF !important;
+}
