@@ -63,7 +63,7 @@ System.register('js/displayContent.js', ['npm:babel-runtime@5.8.38/core-js/objec
 
             getPosition.then(function (weather) {
                 var numbersOutput = '<span>Average Temp: ' + weather.avrTemp + '</span><br>\n        <span>wind speed: ' + weather.wind + ' km/h</span><br>\n        <span>humidity: ' + weather.humidity + '%</span><br>\n         ';
-                var conditionsOutput = '<span>sky condition: ' + weather.clouds + '</span><br>\n        <span>clouds amount: ' + weather.cloudsPersent + '%</span> <br>\n        <span>very actual icon:</span> <img src="http://openweathermap.org/img/w/' + weather.icon + '.png"> ';
+                var conditionsOutput = '<span>sky condition: ' + weather.clouds + '</span><br>\n        <span>clouds amount: ' + weather.cloudsPersent + '%</span> <br>\n        <span>very actual icon:</span> <img src="https://openweathermap.org/img/w/' + weather.icon + '.png"> ';
                 var locationOutput = '<span>you are here: ' + weather.city + '</span><br>\n        <span>forecast time: ' + weather.time + '</span>';
                 $('#numbers').html(numbersOutput);
                 $('#conditions').html(conditionsOutput);
@@ -1650,7 +1650,7 @@ System.register('js/weatherApi.js', ['npm:babel-runtime@5.8.38/core-js/promise.j
             };
 
             _export('default', getPosition.then(function (position) {
-                var weatherUrl = "http://api.openweathermap.org/data/2.5/forecast?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&APPID=" + "f937eb1f1cdd5f16dccbc0fe7e956e0f";
+                var weatherUrl = "https://api.openweathermap.org/data/2.5/forecast?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&APPID=" + "f937eb1f1cdd5f16dccbc0fe7e956e0f";
                 return weatherUrl;
             }).then(function (weatherUrl) {
                 var json = getWeather(weatherUrl);

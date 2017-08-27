@@ -42,7 +42,7 @@ let buildWeather = function(json) {
 }
 export default getPosition
     .then((position) => {
-        let weatherUrl = "http://api.openweathermap.org/data/2.5/forecast?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&APPID=" + "f937eb1f1cdd5f16dccbc0fe7e956e0f";
+        let weatherUrl = "https://api.openweathermap.org/data/2.5/forecast?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&APPID=" + "f937eb1f1cdd5f16dccbc0fe7e956e0f";
         return weatherUrl;
     }).then((weatherUrl) => {
         let json = getWeather(weatherUrl)

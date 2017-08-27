@@ -8,7 +8,7 @@ getPosition
          `
         let conditionsOutput = `<span>sky condition: ${weather.clouds}</span><br>
         <span>clouds amount: ${weather.cloudsPersent}%</span> <br>
-        <span>very actual icon:</span> <img src="http://openweathermap.org/img/w/${weather.icon}.png"> `
+        <span>very actual icon:</span> <img src="https://openweathermap.org/img/w/${weather.icon}.png"> `
         let locationOutput = `<span>you are here: ${weather.city}</span><br>
         <span>forecast time: ${weather.time}</span>`
         $('#numbers').html(numbersOutput)
